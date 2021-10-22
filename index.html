@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">  
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  
+      
+    <link rel="stylesheet" href="slick.css">
+</head>
+<body>
+ 
+   <div class="container ">
+       <h1>Select category</h1>
+       <div class="logo-slider">
+       <button class="btnsect success">HTML,CSS</button>
+       <button class="btnsect success">Javascript</button>
+       <button class="btnsect success">C #</button>
+       <button class="btnsect success">Java</button>
+       <button class="btnsect success">React js</button>
+       <button class="btnsect success">Angular js</button>
+       <button class="btnsect success">Node js</button>
+       <button class="btnsect success">Python</button>
+       </div>
+   
+   </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+
+$('.logo-slider').slick({
+        slidesToShow: 6,
+       
+        dots: false,
+        arrows: true,
+        autoplayspeed: 2000,
+        infinite: false,
+
+        responsive: [
+        {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+       
+      }
+    },
+       
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 4,
+            }
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 3,
+            
+            }
+          },
+          {
+            breakpoint: 359,
+            settings: {
+              slidesToShow: 2,
+            
+            }
+          }
+          
+        ]
+      });
+
+ 
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+
+/*btn*/
+.container1{
+    background-color: #111;
+    height: 650px;
+}
+
+.btnsectlogin {
+    background-color: rgba(8, 14, 17, 0.8), rgba(11, 59, 83, 0.6);
+    border: none;
+    color: black;
+   
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .btnsect {
+    background-color: rgb(226, 223, 223);
+   
+
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .btnsect:hover {background: #ffffff}
+  
+  .success {color: black;}
+h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #302825;
+    text-align: center;
+    position:relative;
+    margin-bottom: 60px;
+}
+h1:after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #141313;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.logo-slider .slick-slide{
+    width: 50px;
+    margin:1px;
+    
+}
+.slick-dots li.slick-active button:before{
+    color:#ff5722;
+}
+.sliick-dots li button:before{
+    font-size: 12px;
+}
+.slick-next:before,
+.slick-prev:before{
+    color: #c0c0c0;
+    font-size: 24px;
+}
+.d:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-2px);
+}
